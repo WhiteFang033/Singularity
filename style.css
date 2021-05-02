@@ -95,7 +95,7 @@ ul li.active a{
 
 @media only screen and (max-width: 900px) {
     header{
-        background-image: url(../background.jpg);
+        background-image: url("background.jpg");
       
       height: 130vh;
         background-size: cover;
@@ -137,7 +137,7 @@ ul li.active a{
     .Heading{
     
         font-family: cursive;
-        font-size: 60px;
+        font-size: 40px;
         color: white;
         margin-top: 10px;
         margin-left: 180px;
