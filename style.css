@@ -6,8 +6,9 @@
 }
 
 header{
-    background-image: url("background.jpg");
-    height: 300vh;
+    background-image: url(../background.jpg);
+    height: 400vh;
+  
     background-size: cover;
     background-position: center;
   background-attachment: fixed;
@@ -19,11 +20,11 @@ header{
 ul{
     position: fixed;
     float: right;
-    margin-left: 500px;
+    margin-left: 750px;
     list-style-type: square;
     background-color: initial;
-    margin-top: 0px;
-    margin-right: -30px;
+    margin-top: -30px;
+    
   
 }
 
@@ -69,7 +70,7 @@ ul li.active a{
 
 .Heading{
     font-family: cursive;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     margin-top: 10px;
     margin-left: 200px;
@@ -79,7 +80,7 @@ ul li.active a{
 .title{
     font-size: 30px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 35%;
    
     
@@ -88,6 +89,76 @@ ul li.active a{
 .content{
  
     position: absolute;
-    top:40% ;
+    top:60% ;
     left: 10%;
+}
+
+@media only screen and (max-width: 800px) {
+    header{
+        background-image: url(../background.jpg);
+      
+      height: 130vh;
+        background-size: cover;
+        background-position: center;
+      background-attachment: fixed;
+      
+    }
+
+    ul{
+        position: fixed;
+        float: right;
+    font-family: cursive;
+    font-size: 13px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+    
+
+    .main{
+        width: 1700px;
+        height: 200px;
+        background-color: black;
+        position:fixed;
+        
+       
+    }
+    
+    .logo img{
+        float: left;
+        left: 10px;
+        width: 150px;
+        height: auto;
+        margin-top: 120px;
+    
+    }
+
+    .Heading{
+    
+        font-family: cursive;
+        font-size: 60px;
+        color: white;
+        margin-top: 10px;
+        margin-left: 180px;
+    }
+
+    
+    .title{
+        font-size: 30px;
+        position: absolute;
+        top: 18%;
+        left: 22%;
+       
+        
+    }
+    
+    .content{
+ 
+        position: absolute;
+        top:30% ;
+        left: 10%;
+    
+    }
+    
 }
