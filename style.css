@@ -19,11 +19,11 @@ header{
 ul{
     position: fixed;
     float: right;
-    margin-left: 800px;
+    margin-left: 600px;
     list-style-type: square;
     background-color: initial;
     margin-top: -40px;
-    margin-right: 25px;
+    margin-right: 0px;
   
 }
 
