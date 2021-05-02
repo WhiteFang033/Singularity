@@ -118,7 +118,7 @@ ul li.active a{
 
     .main{
         width: 1700px;
-        height: 200px;
+        height: 150px;
         background-color: black;
         position:fixed;
         
@@ -145,7 +145,7 @@ ul li.active a{
 
     
     .title{
-        font-size: 30px;
+        font-size: 20px;
         position: absolute;
         top: 18%;
         left: 22%;
