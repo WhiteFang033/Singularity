@@ -97,8 +97,8 @@ ul li.active a{
         background-image: url("background.jpg");
 
       
-      height: 1600px;
-        width: 800;
+      height: 2000px;
+        width: 800px;
         background-size: cover;
         background-position: center;
       background-attachment: fixed;
@@ -108,6 +108,7 @@ ul li.active a{
     ul{
         position: fixed;
         float: left;
+        left: 5%;
     font-family: cursive;
     font-size: 15px;
     color: white;
