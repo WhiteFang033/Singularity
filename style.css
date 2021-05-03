@@ -98,6 +98,7 @@ ul li.active a{
         background-image: url("background.jpg");
       
       height: 250vh;
+        width: 150vh;
         background-size: cover;
         background-position: center;
       background-attachment: fixed;
@@ -127,10 +128,10 @@ ul li.active a{
     
     .logo img{
         float: left;
-        left: 1px;
+        left: 1%;
         width: 150px;
         height: auto;
-        margin-top: 80px;
+        margin-top: 60px;
     
     }
 
@@ -140,7 +141,7 @@ ul li.active a{
         font-size: 40px;
         color: white;
         margin-top: 10px;
-        margin-left: 130px;
+        margin-left: 90px;
     }
 
     
