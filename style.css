@@ -112,7 +112,7 @@ ul li.active a{
     font-size: 18px;
     color: white;
     margin-top: 40px;
-   left: 5%;
+   
 }
 
     ul li a{
@@ -156,7 +156,7 @@ ul li.active a{
         font-size: 25px;
         position: absolute;
         top: 30%;
-        left: 27%;
+        left: 22%;
        
         
     }
@@ -167,7 +167,7 @@ ul li.active a{
         top:50% ;
       
         left: 5%;
-        right:5%;
+        right:20%;
     
     }
 pl{
