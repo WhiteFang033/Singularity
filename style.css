@@ -98,7 +98,7 @@ ul li.active a{
         background-image: url("background.jpg");
       
       height: 150vh;
-        width: 35vh;
+        width: 30vh;
         background-size: cover;
         background-position: center;
       background-attachment: fixed;
@@ -107,12 +107,12 @@ ul li.active a{
 
     ul{
         position: fixed;
-        float: right;
+        float: left;
     font-family: cursive;
-    font-size: 13px;
+    font-size: 17px;
     color: white;
     margin-top: 40px;
-    margin-left: 80px;
+    margin-left: 10px;
 }
 
     
@@ -141,26 +141,26 @@ ul li.active a{
         font-size: 30px;
         color: white;
         margin-top: 10px;
-        margin-left: 90px;
+        margin-left: 100px;
     }
 
     
     .title{
         font-size: 20px;
         position: absolute;
-        top: 23%;
-        left: 40%;
+        top: 30%;
+        left: 30%;
        
         
     }
     
     .content{
  
-        position: relatibe;
+        position: absolute;
         top:35% ;
       
-        left: 20%;
-        margin-right: 20%;
+        left: 5%;
+        margin-right: 5%;
     
     }
     
