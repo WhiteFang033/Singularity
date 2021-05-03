@@ -97,7 +97,7 @@ ul li.active a{
     header{
         background-image: url("background.jpg");
       
-      height: 130vh;
+      height: 250vh;
         background-size: cover;
         background-position: center;
       background-attachment: fixed;
@@ -127,10 +127,10 @@ ul li.active a{
     
     .logo img{
         float: left;
-        left: 10px;
+        left: 1px;
         width: 150px;
         height: auto;
-        margin-top: 120px;
+        margin-top: 80px;
     
     }
 
@@ -140,14 +140,14 @@ ul li.active a{
         font-size: 40px;
         color: white;
         margin-top: 10px;
-        margin-left: 180px;
+        margin-left: 130px;
     }
 
     
     .title{
         font-size: 20px;
         position: absolute;
-        top: 18%;
+        top: 23%;
         left: 22%;
        
         
@@ -156,8 +156,9 @@ ul li.active a{
     .content{
  
         position: absolute;
-        top:30% ;
-        left: 10%;
+        top:35% ;
+        left: 5%;
+        right: 5%
     
     }
     
