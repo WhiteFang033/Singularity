@@ -97,8 +97,8 @@ ul li.active a{
     header{
         background-image: url("background.jpg");
       
-      height: 250vh;
-        width: 40vh;
+      height: 150vh;
+        width: 30vh;
         background-size: cover;
         background-position: center;
       background-attachment: fixed;
@@ -112,7 +112,7 @@ ul li.active a{
     font-size: 13px;
     color: white;
     margin-top: 40px;
-    margin-left: 160px;
+    margin-left: 100px;
 }
 
     
@@ -129,16 +129,16 @@ ul li.active a{
     .logo img{
         float: left;
         left: 1%;
-        width: 50px;
+        width: 100px;
         height: auto;
-        margin-top: 80px;
+        margin-top:90px;
     
     }
 
     .Heading{
     
         font-family: cursive;
-        font-size: 20px;
+        font-size: 30px;
         color: white;
         margin-top: 10px;
         margin-left: 70px;
