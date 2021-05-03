@@ -97,8 +97,8 @@ ul li.active a{
     header{
         background-image: url("pexels-ann-h-1762851.jpg");
       
-      height: 25vh;
-        width: 25vh;
+      height: auto;
+        width: auto;
         background-size: cover;
         background-position: center;
       background-attachment: fixed;
