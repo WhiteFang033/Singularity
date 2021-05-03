@@ -19,8 +19,7 @@ header{
 
 ul{
     position: fixed;
-    float: right;
-    margin-left: 750px;
+    float: left;
     list-style-type: square;
     background-color: initial;
     margin-top: -30px;
@@ -98,8 +97,8 @@ ul li.active a{
         background-image: url("pexels-ann-h-1762851.jpg");
 
       
-      height: 600px;
-        width: auto;
+      height: 1440px;
+        width: 720;
         background-size: cover;
         background-position: center;
       background-attachment: fixed;
