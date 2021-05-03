@@ -94,11 +94,11 @@ ul li.active a{
 
 @media only screen and (max-width: 900px) {
     header{
-        background-image: url("pexels-ann-h-1762851.jpg");
+        background-image: url("background.jpg");
 
       
-      height: 1440px;
-        width: 720;
+      height: 1600px;
+        width: 700;
         background-size: cover;
         background-position: center;
       background-attachment: fixed;
@@ -109,7 +109,7 @@ ul li.active a{
         position: fixed;
         float: left;
     font-family: cursive;
-    font-size: 12px;
+    font-size: 18px;
     color: white;
     margin-top: 40px;
    
@@ -156,7 +156,7 @@ ul li.active a{
         font-size: 25px;
         position: absolute;
         top: 30%;
-        left: 22%;
+        left: 18%;
        
         
     }
