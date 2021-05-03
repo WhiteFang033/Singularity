@@ -156,9 +156,9 @@ ul li.active a{
     
     .content{
  
-        position: absolute;
+        position: relatibe;
         top:35% ;
-        background-size: cover;
+      
         left: 20%;
         margin-right: 5%;
     
