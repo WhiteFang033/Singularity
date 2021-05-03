@@ -97,9 +97,9 @@ ul li.active a{
     header{
         background-image: url("background.jpg");
       
-      height: 150vh;
+      height: 25vh;
         width: 25vh;
-        background-size: 160px;
+        background-size: cover;
         background-position: center;
       background-attachment: fixed;
       
