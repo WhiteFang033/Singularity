@@ -108,7 +108,7 @@ ul li.active a{
 
     ul{
         position: fixed;
-        float: right;
+        float: left;
         
     font-family: cursive;
     font-size: 15px;
