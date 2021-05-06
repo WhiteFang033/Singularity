@@ -20,6 +20,7 @@ header{
 ul{
     position: fixed;
     float: right;
+    left: 50%;
     list-style-type: square;
     background-color: initial;
     margin-top: -30px;
