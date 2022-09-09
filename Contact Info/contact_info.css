@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Nova Flat;
+    src: url(NovaFlat-Regular.ttf);
+};
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: Nova Flat;
+    overflow-x: hidden;
+    background-image: url(bcg_img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main{
+    position: fixed;
+    margin-top: -2vh;
+    margin-left: -2vw;
+    padding: 0%;
+    color: #ffffff;
+    background-color: #000000;
+    width: 110vw;
+    height: 10vh;
+    z-index: 10;
+}
+
+.logo img{
+    position: relative;
+    width: 150px;
+    left: 2%;
+}
+
+.Heading{
+    font-size: 35px;
+    position: fixed;
+    top: 1vh;
+    margin-left: 15vw;
+}
+
+ul{
+    position: fixed;
+    top: 1vh;
+    left: 50vw;
+    color: #000000;
+    list-style-type: square;
+    background-color: initial;
+    padding: 5px 25px;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 25px;
+}
+ul li.active a{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+ul:hover li a{
+    opacity: 0.2;
+    filter: blur(5px);
+    color: black;
+    transition:0.6s ease;
+}
+ul li a:hover{
+    color: #000000;
+    background-color: #ffffff;
+    opacity: 1;
+    filter:blur(0px);
+    transition: 0.6s ease;
+}
+
+.title{
+    position: relative;
+    top: 40%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.content{
+    position: absolute;
+    top: 100vh;
+    margin-left: 5%;
+    margin-right: 5% ;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:900px) {
+    
+    .Heading{
+        text-align: center;
+        left: 10vw;
+        top: 3vh;
+    }
+    .main{
+        position: fixed;
+        width: 110vw;
+        height: 20vh;
+        margin-right: -5vw;
+    }
+
+    ul{
+        top: 10vh;
+        left: 0%;
+        font-size: 13px;
+    }
+    ul li a{
+        padding: 5px 10px;
+    }
+
+    .logo{
+        display: none;
+    }
+    
+    .title{
+        font-size: 20px;
+    }
+    .content{
+        top: 80%;
+    }
+}
