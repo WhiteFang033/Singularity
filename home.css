@@ -46,22 +46,20 @@ ul{
     position: fixed;
     top: 1vh;
     left: 50vw;
-    color: #000000;
+    color: #ffffff;
     list-style-type: square;
     background-color: initial;
-    padding: 5px 25px;
 }
 ul li{
     display: inline;
+    padding: 5px;
 }
 ul li a{
     text-decoration: none;
-    color: #ffffff;
-    padding: 5px 25px;
-}
-ul li.active a{
-    background-color: #ffffff;
     color: #000000;
+    background-color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 3px;  
 }
 
 ul:hover li a{
@@ -71,10 +69,17 @@ ul:hover li a{
     transition:0.6s ease;
 }
 ul li a:hover{
-    color: #000000;
-    background-color: #ffffff;
+    color: black;
+    background-color: #f5c6cf;
     opacity: 1;
     filter:blur(0px);
+    transition: 0.6s ease;
+}
+
+.Heading:hover{
+    color:#f5c6cf;
+    transform: scale(1.09);
+    cursor: default;
     transition: 0.6s ease;
 }
 
@@ -109,7 +114,7 @@ ul li a:hover{
 
     ul{
         top: 10vh;
-        left: 0%;
+        left: -9vw;
         font-size: 13px;
     }
     ul li a{
