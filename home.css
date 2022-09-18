@@ -89,13 +89,17 @@ ul li a:hover{
     font-size: 30px;
     text-align: center;
 }
-
 .content{
+    background-color: #f5c6cf64;
     position: absolute;
     top: 100vh;
-    margin-left: 5%;
-    margin-right: 5% ;
+    left: 0%;
+    right: 0% ;
     font-size: 20px;
+}
+.content_text{
+    position: relative;
+    margin: 5%;
 }
 
 @media only screen and (max-width:900px) {
