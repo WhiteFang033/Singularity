@@ -40,6 +40,7 @@ body{
     position: fixed;
     top: 1vh;
     margin-left: 15vw;
+    transition: 0.6s ease;
 }
 
 ul{
@@ -49,6 +50,7 @@ ul{
     color: #ffffff;
     list-style-type: square;
     background-color: initial;
+    transition:0.6s ease;
 }
 ul li{
     display: inline;
@@ -60,27 +62,25 @@ ul li a{
     background-color: #ffffff;
     padding: 5px 20px;
     border-radius: 3px;  
+    transition: 0.6s ease;
 }
 
 ul:hover li a{
     opacity: 0.2;
     filter: blur(5px);
     color: black;
-    transition:0.6s ease;
 }
 ul li a:hover{
     color: black;
     background-color: #f5c6cf;
     opacity: 1;
     filter:blur(0px);
-    transition: 0.6s ease;
 }
 
 .Heading:hover{
     color:#f5c6cf;
     transform: scale(1.09);
     cursor: default;
-    transition: 0.6s ease;
 }
 
 .title{
@@ -117,7 +117,7 @@ ul li a:hover{
     }
 
     ul{
-        top: 10vh;
+        top: 11vh;
         left: -9vw;
         font-size: 13px;
     }
@@ -128,6 +128,25 @@ ul li a:hover{
     .logo{
         display: none;
     }
+    .content{
+        width: 110vw;
+    }
 
+}
 
+@media only screen and (max-width:360px)
+{
+    .main{
+        width: 130vw;
+    }
+    .content{
+        left: 0%;
+        right: -20%;
+    }
+    .title{
+        top: 50vh;
+    }
+    .content{
+        top: 120vh;
+    }
 }

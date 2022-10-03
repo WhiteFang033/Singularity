@@ -40,6 +40,7 @@ body{
     position: fixed;
     top: 1vh;
     margin-left: 15vw;
+    transition:0.6s ease;
 }
 
 ul{
@@ -49,6 +50,7 @@ ul{
     color: #000000;
     list-style-type: square;
     background-color: initial;
+    transition:0.6s ease;
 }
 ul li{
     display: inline;
@@ -60,27 +62,25 @@ ul li a{
     background-color: #ffffff;
     padding: 5px 20px;
     border-radius: 3px;  
+    transition:0.6s ease;
 }
 
 ul:hover li a{
     opacity: 0.2;
     filter: blur(5px);
     color: black;
-    transition:0.6s ease;
 }
 ul li a:hover{
     color: black;
     background-color: #f5c6cf;
     opacity: 1;
     filter:blur(0px);
-    transition: 0.6s ease;
 }
 
 .Heading:hover{
     color:#f5c6cf;
     transform: scale(1.09);
     cursor: default;
-    transition: 0.6s ease;
 }
 
 .title{
